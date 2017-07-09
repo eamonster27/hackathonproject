@@ -12,6 +12,7 @@ app.use(express.static("public"));
 app.use(mainRoutes);
 
 
-app.listen(3000, function(){
+
+app.listen(3200, function(){
   console.log("Server running!");
 })
